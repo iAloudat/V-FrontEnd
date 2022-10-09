@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+Mono:100,200,300,regular,500,600,700,800,900);
+/* 
+bg: #3f3f3f
+nav bg: #993300
+cart bg: #4d1601 or #660000 or #330000
+button bg: #993300
+Text bg: #383838
+
+
+
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans Mono', Courier, monospace;
+}
