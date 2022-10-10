@@ -68,7 +68,7 @@ body {
   top: -20vh;
   left:-20vw;
   z-index: -1;
-  background: url('../images/meals.jpg') no-repeat;
+  background-image: url("../images/meals.jpg");
   background-size: cover;
   transform: rotate(-4.5deg);
 }
