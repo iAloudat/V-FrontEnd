@@ -1,0 +1,123 @@
+/*  
+Quiz 1
+Iyad Aloudat
+*/
+
+/*  Remove  margin & padding From all elements*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*  ######## Body Style ########## */
+body {
+  width: 100vw;
+  height: 100vh;
+  min-height: 100% !important;
+  font-size: 14px;
+  /*  Gradient */
+  background: linear-gradient(180deg,#1a2a6c,#b21f1f,#fdbb2d);
+  background-repeat: no-repeat;
+  background-size: 100% 800%;
+  /*  Gradient Animation */
+  animation: gradientAnimation 5s ease infinite;
+
+}
+/*  Gradient Animation Key*/
+@keyframes gradientAnimation {
+  0%{background-position: 0% 0%}
+  50%{background-position: 0% 100%}
+  100%{background-position: 0% 0%}
+}
+
+/*  ######## Main container Style ########## */
+
+.mainContainer {
+padding-bottom: 5%;
+}
+
+/*  ######## Page Title ########## */
+.mainTitle {
+  font-size: 3rem;
+  text-align: center; /* center text */
+  font-weight: bold; /* Bold text */
+  padding: 20px 5px; /* inner space   */
+  color: white; /* Text Color   */
+}
+
+/*  ######## White Box ########## */
+
+.whiteContainer {
+  padding: 5vh 5vw;
+  width: 80vw;
+  position: relative;
+  margin: 0 auto;  /* Center Element Box   */
+  text-align: center; /* Center Text   */
+  background-color: white;
+  border-radius: 25px; /* box curve */
+  overflow: hidden; /* Mask all object To hide items outside box  */
+}
+
+/*  ######## button Style ########## */
+.buttonStyle {
+  position: relative;
+  padding: 1vh 5vw;
+  text-transform: uppercase; /* Make All Letter uppercase  */
+  font-size: large; /* Make Text Large  */
+  font-weight: bold; /* Make Text Bold  */
+  color: white;/* Text color */
+  background-color: #1a2a6c; /* Background color */
+  border: 0px;
+  border-radius: 25px; /* box curve   */
+  /* Transition  */
+  transition: background-color 1s;
+  transition: color 1s;
+  transition-timing-function: linear;
+  z-index: 10;
+}
+
+.buttonStyle:hover {
+  background-color: #fdbb2d; /* Background color */
+  color: #1a2a6c; /* Text color */
+  /* transition-delay: 0.5s; delay  */
+}
+
+
+.whiteContainer::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  background: url("confetti_animated.webp");
+  background-size: cover;
+  z-index: 5;
+  opacity: 0;
+ animation: confetti 4s infinite;
+}
+
+@keyframes confetti {
+  8% {opacity: 0;}
+  100%{opacity: 1;}
+  
+}
+
+
+/*  ######## Image Animation ########## */
+
+.imgContainer img {
+  height: 65vh;
+  position: relative;
+  animation: imgMove 4s infinite; /* time and Repeated  */
+  /* Motion Style */
+  animation-timing-function: cubic-bezier(0, 1, 1, 1)
+}
+@keyframes imgMove {
+  from {/* image Start Move */
+    left: -30vw;
+  }
+  to { /* image End Move */
+    left: 65vw;
+  }
+}
