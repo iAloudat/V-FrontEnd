@@ -121,3 +121,14 @@ padding-bottom: 5%;
     left: 65vw;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  @keyframes imgMove {
+    from {/* image Start Move */
+      left: -150vw;
+    }
+    to { /* image End Move */
+      left: 60vw;
+    }
+  }
+}
