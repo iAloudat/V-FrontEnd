@@ -77,6 +77,34 @@ body {
     brightness(111%) contrast(101%);
 }
 
+
+/*  ########### Main ########### */
+.mainContinuer {
+  width: 90vw;
+  padding: 10px;
+  margin: auto;
+}
+.masonryGallery {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 800px;
+  gap: 5px;
+}
+
+.masonryGallery div {
+  flex: 25%;
+  max-width: 25%;
+}
+
+
+.masonryGallery img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 /*  ########### Responsive Mobile Version ########### */
 
 @media screen and (max-width: 800px) {
