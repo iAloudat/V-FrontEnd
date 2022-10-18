@@ -43,6 +43,7 @@ body {
   margin-right: auto;
   display: block;
     /* border:#f3f3f3 1px solid; */
+    border: 0;
     margin-left: auto;
 }
 
