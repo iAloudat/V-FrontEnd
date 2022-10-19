@@ -86,10 +86,11 @@ body {
 }
 .masonryGallery {
   overflow: hidden;
+
   display: flex;
   flex-flow: column wrap;
-  max-height: 2400px;
-  gap: 16px;
+  max-height: 1990px;
+  gap: 17px;
 }
 
 /* 
@@ -107,7 +108,7 @@ body {
 .masonryGallery img {
   object-fit: cover;
   max-width: 24%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 
@@ -142,6 +143,21 @@ body {
     flex-direction: column;
     background-color: #1b1b1b;
     padding: 10px;
+    border-radius: 10px;
+  }
+
+  .masonryGallery {
+    overflow: auto;
+    display: flex;
+    flex-flow: column;
+    max-height: auto;
+    gap: 1vw;
+  }
+
+  .masonryGallery img {
+    object-fit: cover;
+
+    max-width: 100vw;
     border-radius: 10px;
   }
 }
