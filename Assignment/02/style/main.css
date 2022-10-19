@@ -93,18 +93,6 @@ body {
   gap: 17px;
 }
 
-/* 
-.masonryGallery img:nth-child(2n+1) {
-  flex: 25%;
-  max-width: 25%;
- }
-
- .masonryGallery img:nth-child(2n+2) {
-  flex: 25%;
-  max-width: 25%;
- } */
-
-
 .masonryGallery img {
   object-fit: cover;
   max-width: 24%;
