@@ -77,16 +77,16 @@ body {
     brightness(111%) contrast(101%);
 }
 
-
 /*  ########### Main ########### */
 .mainContinuer {
   width: 90vw;
   padding: 10px 2px;
   margin: 0 auto;
 }
+
+/*  ########### Masonry Gallery - Responsive Image Grid ########### */
 .masonryGallery {
   overflow: hidden;
-
   display: flex;
   flex-flow: column wrap;
   max-height: 1990px;
@@ -98,6 +98,7 @@ body {
   max-width: 24%;
   border-radius: 5px;
 }
+
 
 
 
@@ -144,7 +145,6 @@ body {
 
   .masonryGallery img {
     object-fit: cover;
-
     max-width: 100vw;
     border-radius: 10px;
   }
