@@ -1,10 +1,17 @@
 # Vanier-FrontEnd
 
 ### Assignment 01 
-- [Link to Code](https://github.com/iAloudat/Vanier-FrontEnd/tree/main/Assignment/01)
-- [Link To view](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/01/index.html)
+- :memo:[Link to Code](https://github.com/iAloudat/Vanier-FrontEnd/tree/main/Assignment/01)
+- :rocket:[Link To view](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/01/index.html)
 
+### Assignment 01 
+- [Link to Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/02)
+- :rocket:[Link To view](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/02/index.html)
 
+### Quiz 01 
+
+- [Link to Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Quiz/01)
+- :rocket:[Link To view](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Quiz/01/index.html)
 
 # CSS Tutorial 
 
