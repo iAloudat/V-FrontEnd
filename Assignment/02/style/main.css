@@ -87,6 +87,7 @@ body {
 /*  ########### Masonry Gallery - Responsive Image Grid ########### */
 .masonryGallery {
   overflow: hidden;
+  padding-top: 20px;
   display: flex;
   flex-flow: column wrap;
   max-height: 1990px;
@@ -94,11 +95,28 @@ body {
 }
 
 .masonryGallery img {
+  display: block;
   object-fit: cover;
   max-width: 24%;
   border-radius: 5px;
 }
 
+.masonryGallery img:hover {
+  transform-style:preserve-3d;
+  transform: skewY(4deg);
+  transition: all 0.2s ease-out;
+  background: linear-gradient(#fff);
+}
+
+.masonryGallery img::before {
+  position:static;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  height: 200px;
+  content: "demo";
+  background: linear-gradient(#fff);
+}
 
 
 
