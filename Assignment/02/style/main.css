@@ -15,11 +15,12 @@ body {
   margin: 0;
   padding: 0;
 }
-
-/*  ########### Top Navigation ########### */
-
+/*  ******************************************** */
+/*  *****************  Header  ***************** */
+/*  ******************************************** */
 .nav {
-  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
   width: 90vw;
   max-height: 75px;
   padding: 10px;
@@ -31,39 +32,36 @@ body {
   border-radius: 10px;
 }
 
+/*  ====== Website logo ====== */
 .logo img {
-  float: left;
   width: auto;
   height: 50px;
 }
 
 .menuContinuer {
-  float: right;
-  margin-right: auto;
   display: block;
-  margin-left: auto;
   padding: 10px;
 }
 
+/*  ====== Menu ====== */
 .menu {
   display: flex; /*  Flex Display */
   justify-content: space-between;
-  list-style-type: none;
 }
 
-.menu li a {
+.menu a {
   color: #fff;
   text-decoration: none;
   display: block;
   padding: 10px 20px;
 }
 
-.menu li a:hover {
+.menu a:hover {
   background-color: #e24329;
   border-radius: 5px;
 }
 
-/*  ########### Hamburger Menu ########### */
+/*  ====== Hamburger Menu  ====== */
 
 .hamburgerMenu {
   display: none;
@@ -77,52 +75,38 @@ body {
     brightness(111%) contrast(101%);
 }
 
-/*  ########### Main ########### */
+/*  ******************************************** */
+/*  *****************  Main  ***************** */
+/*  ******************************************** */
+
 .mainContinuer {
   width: 90vw;
   padding: 10px 2px;
   margin: 0 auto;
 }
 
-/*  ########### Masonry Gallery - Responsive Image Grid ########### */
+/*  ====== Masonry Gallery ====== */
 .masonryGallery {
   overflow: hidden;
   padding-top: 20px;
   display: flex;
   flex-flow: column wrap;
-  max-height: 1990px;
-  gap: 17px;
+  max-height: 2000px;
+  gap: 18px;
 }
 
 .masonryGallery img {
   display: block;
   object-fit: cover;
   max-width: 24%;
-  border-radius: 5px;
+  border-radius: 10px;
 }
-
-.masonryGallery img:hover {
-  transform-style:preserve-3d;
-  transform: skewY(4deg);
-  transition: all 0.2s ease-out;
-  background: linear-gradient(#fff);
-}
-
-.masonryGallery img::before {
-  position:static;
-  width: 200px;
-  height: 200px;
-  top: 100px;
-  height: 200px;
-  content: "demo";
-  background: linear-gradient(#fff);
-}
+/*  ####################################### */
+/*  ###########  Mobile Version ########### */
+/*  ####################################### */
 
 
-
-/*  ########### Responsive Mobile Version ########### */
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   .menu {
     display: none;
     z-index: 5;
@@ -135,6 +119,9 @@ body {
     width: fit-content;
     margin-left: auto;
   }
+
+  /*  ====== hamburger Menu For Mobile====== */
+
   .hamburgerMenu {
     display: block;
   }
@@ -153,17 +140,29 @@ body {
     border-radius: 10px;
   }
 
+/*  ====== Masonry Gallery For Mobile ====== */
+
   .masonryGallery {
-    overflow: auto;
-    display: flex;
-    flex-flow: column;
-    max-height: auto;
-    gap: 1vw;
+    max-height: 100%;
   }
 
   .masonryGallery img {
-    object-fit: cover;
-    max-width: 100vw;
-    border-radius: 10px;
+    max-width: 100%;
+  }
+}
+
+/*  ###########  Tablet Version ########### */
+@media screen and (min-width:601px) and (max-width: 800px) {
+  
+  .masonryGallery img {
+    max-width: 48%;
+  }
+}
+
+/*  ###########  Tablet High Resolution and landscape ########### */
+@media screen and (min-width:801px) and (max-width: 1200px) {
+  
+  .masonryGallery img {
+    max-width: 32%;
   }
 }
