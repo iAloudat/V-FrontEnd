@@ -1,4 +1,4 @@
-# Vanier-FrontEnd
+# Vanier-FrontEnd.
 
 ### Assignment 01 
 - :sunny: [#### CODE ####](https://github.com/iAloudat/Vanier-FrontEnd/tree/main/Assignment/01)
