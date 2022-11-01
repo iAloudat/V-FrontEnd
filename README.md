@@ -2,34 +2,34 @@
 
 ## Assignment 01 
 
-- :sunny: [#### CODE ####](https://github.com/iAloudat/Vanier-FrontEnd/tree/main/Assignment/01)
+- :sunny: [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/tree/main/Assignment/01)
   
-- :rocket: [@@@@ VIEW @@@@](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/01/index.html)
+- :rocket: [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/01/index.html)
 
 ## Assignment 02 
 
-- :sunny: [#### CODE ####](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/02)
+- :sunny: [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/02)
   
-- :rocket:[@@@@ VIEW @@@@](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/02/index.html)
+- :rocket:[View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/02/index.html)
 
 
 ## Assignment 03
 
-- :sunny: [#### CODE ####](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/03)
+- :sunny: [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/03)
   
-- :rocket:[@@@@ VIEW @@@@](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/03/index.html)
+- :rocket:[View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/03/index.html)
 
 ## Example Score Keeper
 
-- :sunny: [#### CODE ####](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Example/ScoreKeeper)
+- :sunny: [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Example/ScoreKeeper)
   
-- :rocket:[@@@@ VIEW @@@@](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Example/ScoreKeeper/index.html)
+- :rocket:[View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Example/ScoreKeeper/index.html)
 
 
 ## Quiz 01 
-- :sunny: [#### CODE ####](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Quiz/01)
+- :sunny: [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Quiz/01)
   
-- :rocket: [@@@@ VIEW @@@@](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Quiz/01/index.html)
+- :rocket: [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Quiz/01/index.html)
 
 ![](Assignment/02/images/ScreenShot.png)
 
