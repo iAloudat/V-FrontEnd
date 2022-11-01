@@ -2,34 +2,34 @@
 
 ## Assignment 01 
 
-- :sunny: [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/tree/main/Assignment/01)
+- ✅ [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/tree/main/Assignment/01)
   
-- :rocket: [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/01/index.html)
+- 🌍 [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/01/index.html)
 
 ## Assignment 02 
 
-- :sunny: [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/02)
+- ✅ [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/02)
   
-- :rocket:[View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/02/index.html)
+- 🌍 [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/02/index.html)
 
 
 ## Assignment 03
 
-- :sunny: [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/03)
+- ✅ [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/03)
   
-- :rocket:[View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/03/index.html)
+- 🌍 [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/03/index.html)
 
 ## Example Score Keeper
 
-- :sunny: [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Example/ScoreKeeper)
+- ✅ [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Example/ScoreKeeper)
   
-- :rocket:[View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Example/ScoreKeeper/index.html)
+- 🌍 [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Example/ScoreKeeper/index.html)
 
 
 ## Quiz 01 
-- :sunny: [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Quiz/01)
+- ✅ [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Quiz/01)
   
-- :rocket: [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Quiz/01/index.html)
+- 🌍 [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Quiz/01/index.html)
 
 ![](Assignment/02/images/ScreenShot.png)
 
