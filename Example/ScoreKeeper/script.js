@@ -1,5 +1,5 @@
-const sDisplay1 = document.querySelector(`#p1`);
-const sDisplay2 = document.querySelector(`#p2`);
+const sDisplay1 = document.querySelector("#p1");
+const sDisplay2 = document.querySelector("#p2");
 let score1 = 0;
 let score2 = 0;
 const selector = document.querySelector("#selector");
@@ -32,13 +32,13 @@ btnR.addEventListener("click", reset);
 
 function scoreCheck() {
   if (score1 === finalScore) {
-    sDisplay1.classList.add("has-text-success");
-    sDisplay2.classList.add("has-text-danger");
+    sDisplay1.classList.add("playerWinner");
+    sDisplay2.classList.add("playerLoser");
     btn1.disabled = true;
     btn2.disabled = true;
   } else if (score2 === finalScore) {
-    sDisplay2.classList.add("has-text-success");
-    sDisplay1.classList.add("has-text-danger");
+    sDisplay2.classList.add("playerWinner");
+    sDisplay1.classList.add("playerLoser");
     btn1.disabled = true;
     btn2.disabled = true;
   }
@@ -51,6 +51,6 @@ function reset() {
   score2 = 0;
   btn1.disabled = false;
   btn2.disabled = false;
-  sDisplay1.classList.remove("has-text-success", "has-text-danger");
-  sDisplay2.classList.remove("has-text-success", "has-text-danger");
+  sDisplay1.classList.remove("playerWinner", "playerLoser");
+  sDisplay2.classList.remove("playerWinner", "playerLoser");
 }

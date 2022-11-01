@@ -5,86 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylee.css" />
-    <title>Document</title>
+    <title>Score Keeper</title>
   </head>
   <body>
-    <section class="section">
-      <div class="container">
-        <div class="comlumns">
-          <div class="column is-half is-offset-one-quarter">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-2by1">
-                  <img
-                    src="https://assets-global.viveport.com/media/catalog/product/cache/612e719ded2c4c22af0977aa2412925e/b/8/b8691ae6-43b4-4565-b688-7a99c344d2f9.2c733247.jpg"
-                    alt=""
-                  />
-                </figure>
-              </div>
-              <header class="card-header">
-                <p class="card-header-title">Ping Pong Score Keeper</p>
-              </header>
-              <div class="card-content">
-                <div class="content">
-                  <h1 class="title is-1">
-                    <span id="p1">0</span> to <span id="p2">0</span>
-                  </h1>
-                  <p class="subtitle">Controls:</p>
-                  <ul>
-                    <li>
-                      Key <span class="bold">1</span> or
-                      <span class="bold">Num1</span>: Add points to Player 1
-                    </li>
-                    <li>
-                      Key <span class="bold">2</span> or
-                      <span class="bold">Num2</span>: Add points to Player 2
-                    </li>
-                    <li>
-                      Key <span class="bold">R</span> or
-                      <span class="bold">Enter</span>: Resets the game
-                    </li>
-                  </ul>
-
-                  <label for="selector" class="label is-large is-inline"
-                    >Playing to</label
-                  >
-                  <div class="select is-rounded">
-                    <select name="selector" id="selector">
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5">5</option>
-                      <option value="6">6</option>
-                      <option value="7">7</option>
-                      <option value="8">8</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <footer class="card-footer">
-                <button
-                  id="btn1"
-                  class="is-large is-primary button card-footer-item"
-                >
-                  +1 Player One
-                </button>
-                <button
-                  id="btn2"
-                  class="is-large is-info button card-footer-item"
-                >
-                  +1 Player Two
-                </button>
-                <button
-                  id="btnR"
-                  class="is-large is-danger button card-footer-item"
-                >
-                  Reset
-                </button>
-              </footer>
-            </div>
-          </div>
-        </div>
+    <div class="cardContinuer">
+      <div class="imageContainer">
+        <img src="score.jpg" alt="Score Keeper" />
       </div>
-    </section>
+
+      <h1>Score Keeper</h1>
+
+      <div class="playerScoreNumber">
+        <span id="p1">0</span> - <span id="p2">0</span>
+      </div>
+
+      <div>
+        Playing to
+        <select name="selector" id="selector">
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+      </div>
+
+      <div class="buttonGroup">
+        <button id="btn1">Player One</button>
+        <button id="btn2">Player Two</button>
+        <button id="btnR">Reset</button>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
