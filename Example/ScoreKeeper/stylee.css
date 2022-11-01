@@ -36,6 +36,12 @@ body {
 .headerTitle {
   padding: 10px;
 }
+.selectorBox select {
+  font-size: 1rem;
+  padding: 2px 20px;
+  border-radius: 5px;
+  background: #f3f3f3;
+}
 
 .playerScoreNumber {
   padding: 5px;
