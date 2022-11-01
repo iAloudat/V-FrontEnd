@@ -49,3 +49,4 @@ console.log("🔶 ~ Array 5", array5);
 
 const removeDuplicates = (arr) => [...new Set(arr)];
 console.log("✅ ~ Result Remove duplicated ", removeDuplicates(array5));
+

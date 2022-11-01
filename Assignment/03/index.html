@@ -4,14 +4,145 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="script.js"></script>
+
+    <!-- Code Theme-->
+    <!-- sunburst sons-of-obsidian doxy-->
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=js&amp;skin=sunburst"></script>
+
+    <!-- icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="style.css" />
+
     <title>Assignment 3</title>
   </head>
   <body>
-    <h1>Assignment 3</h1>
-    <pre><script>
+    <div class="mainContiner">
+      <h1 class="mainTitle">Assignment 3</h1>
+      <section class="sectionOne">
+        <h3 class="question">1- Add two integers Ex: 1+1</h3>
+        <div class="answer" id="Q1"></div>
+        <pre class="prettyprint lang-js">
+
+          //! ########### Question 01 #########
+          console.log("⭕ ~ Question 01 \n =====================");
+          // Method 1
+          additionV1 = (num1A, num1B) => num1A + num1B;
+          console.log("✅ ~ Result Method 1: 1+1 =", additionV1(1, 1));
+          
+          // Method 2
+          function additionV2(num1A, num1B) {
+            return num1A + num1B;
+          }
+          console.log("✅ ~ Result Method 2: 1+1 =", additionV2(1, 1));
+          
+        </pre>
+
+        <h3 class="question">
+          2- Concatenate 2 arrays and sort the array Ex: [1,2,4] and [3,5]
+        </h3>
+        <div class="answer" id="Q2"></div>
+
+        <pre class="prettyprint lang-js">
+
+          //! ########### Question 02 #########
+          console.log("\n⭕ ~ Question 02 \n =====================");
+          const array2A = [1, 2, 4];
+          const array2B = [3, 5];
+          console.log("🔶 ~ Array 2A = ", array2A, " ~ Array 2B = ", array2B);
+          
+          const mergeList = array2A.concat(array2B);
+          function compareNumbers(a, z) {
+            return a - z;
+          }
+          const sortMergeList2 = mergeList.sort(compareNumbers);
+          console.log("✅ ~ Result Concatinate & Sort ", sortMergeList2);
+          
+        </pre>
+
+        <h3 class="question">
+          3- Sort the array and return the min and second max value
+          Ex:[2,4,6,1,5]
+        </h3>
+        <div class="answer" id="Q3"></div>
+        <pre class="prettyprint lang-js">
+          //! ########### Question 03 #########
+          console.log("\n⭕ ~ Question 03 \n =====================");
+          const array3 = [2, 4, 6, 1, 5];
+          console.log("🔶 ~ Array 3", array3);
+          
+          const sortArray3 = array3.sort(compareNumbers);
+          Array3Min = sortArray3.splice(1, [sortArray3.length - 3]);
+          Array3MinMax = sortArray3.splice(-1, 1);
+          
+          console.log("✅ ~ Result Min & Second Max", sortArray3);
+          
+        </pre>
+
+        <h3 class="question">
+          4- Replace every uppercase letters in a string into lowercase EX :
+          ApPle
+        </h3>
+        <div class="answer" id="Q4"></div>
+        <pre class="prettyprint lang-js">
+          //! ########### Question 04 #########
+          console.log("\n⭕ ~ Question 04 \n =====================");
+          const word = "ApPle";
+          console.log("🔶 ~ Word", word);
+
+          lowercaseFunction = (word) => word.toLowerCase();
+          console.log("✅ ~ Result Lowercase >>", lowercaseFunction(word));
+        </pre>
+
+        <h3 class="question">
+          5- Remove duplicated from a sorted array Ex: [1,2,3,3,3,4,5,5]
+        </h3>
+        <div class="answer" id="Q5"></div>
+        <pre class="prettyprint lang-js">
+          //! ########### Question 05 #########
+          console.log("\n⭕ ~ Question 05 \n =====================");
+          const array5 = [1, 2, 3, 3, 3, 4, 5, 5];
+          console.log("🔶 ~ Array 5", array5);
+          
+          const removeDuplicates = (arr) => [...new Set(arr)];
+          console.log("✅ ~ Result Remove duplicated ", removeDuplicates(array5));
+        
+          
+        </pre>
+      </section>
+
+      <!-- sectionTwo-->
+      <section class="sectionTwo">
+        <h3 class="question">6- SHOPPING LIST</h3>
+        <div class="shoppingContinuer">
+        <form>
+          <input class="listInput" type="text" placeholder="Add list item" />
+          <button class="addBtn" id="add">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </form>
+        <div class="itemsContainer">
+          <ul class="itemsList"></ul>
+        </div>
+      </div>
+      </section>
+    </div>
+    <!-- close mainContiner div-->
+
+    <script src="script.js"></script>
+    <script src="viewResult.js"></script>
+    <script src="shoppingList.js"></script>
+
+    <!-- <pre><script>
       document.writeln("Q1 Method 1: 1+1 =", additionV1(1, 1));
       document.writeln("Q2 Method 2: 1+1 =", additionV2(1, 1));
-    </script></pre>
+    </script></pre> -->
   </body>
 </html>
