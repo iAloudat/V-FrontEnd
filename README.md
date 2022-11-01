@@ -12,6 +12,20 @@
   
 - :rocket:[@@@@ VIEW @@@@](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/02/index.html)
 
+
+## Assignment 03
+
+- :sunny: [#### CODE ####](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/03)
+  
+- :rocket:[@@@@ VIEW @@@@](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/03/index.html)
+
+## Example Score Keeper
+
+- :sunny: [#### CODE ####](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Example/ScoreKeeper)
+  
+- :rocket:[@@@@ VIEW @@@@](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Example/ScoreKeeper/index.html)
+
+
 ## Quiz 01 
 - :sunny: [#### CODE ####](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Quiz/01)
   
