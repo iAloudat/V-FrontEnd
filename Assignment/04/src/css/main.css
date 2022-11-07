@@ -9,6 +9,8 @@
   box-sizing: border-box;
 }
 
+/* navBar = #AD86FF Buttons = #6F488E */
+
 body {
   font-family: "Lato", Courier, monospace;
   background-color: #fff;
@@ -17,4 +19,19 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
+}
+
+.bg-light {
+  background: #ad86ff !important;
+}
+
+.navbar-brand {
+  height: 75px;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/hero.png) no-repeat top right;
+  background-size: cover;
 }

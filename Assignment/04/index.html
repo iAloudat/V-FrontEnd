@@ -14,17 +14,40 @@
     <title>Assignment 4</title>
   </head>
   <body>
-    <nav class="navbar bg-light">
+    <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <img class="navbar-brand" src="src/images/Logo.png" alt="" />
-        <a class="nav-link active" href="#" aria-current="page">Home</a>
-        <a class="nav-link" href="#">Login</a>
+        <a href="index.html"
+          ><img class="navbar-brand" src="src/images/Logo.png" alt=""
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#topNavbarToggler"
+          aria-controls="topNavbarToggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse p-2" id="topNavbarToggler">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
     <main>
       <!-- Section Hero -->
-      <section>
+      <section class="hero">
         <div>
           <h1>Learn American Sign Language</h1>
           <p>
@@ -71,6 +94,7 @@
         </p>
       </section>
     </main>
+
     <footer>
       <ul>
         <li>About us</li>
@@ -82,11 +106,13 @@
       </ul>
       <div>©2022, In Plain Sight. All rights reserved</div>
     </footer>
-    <script src="src/js/script.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+
+    <script src="src/js/script.js"></script>
   </body>
 </html>
