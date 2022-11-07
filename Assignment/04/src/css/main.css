@@ -32,6 +32,14 @@ body {
 .hero {
   width: 100vw;
   height: 100vh;
+  padding-top: 100px;
+  padding-left: 100px;
   background: url(../images/hero.png) no-repeat top right;
   background-size: cover;
+}
+
+.hero div {
+  width: 50vw;
+  background-color: #ac86ff8f;
+  padding: 10px;
 }
