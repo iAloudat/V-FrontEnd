@@ -1,6 +1,7 @@
 /*  Add google font */
 @import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
 /* 
+/* navBar = #AD86FF Buttons = #6F488E */
 
 /*  Effect all elements */
 * {
@@ -9,7 +10,25 @@
   box-sizing: border-box;
 }
 
-/* navBar = #AD86FF Buttons = #6F488E */
+:root {
+  --bs-blue: #6f488e !important;
+  --bs-primary: #6f488e !important;
+}
+
+.btn-primary {
+  --bs-btn-bg: #6f488e;
+  --bs-btn-disabled-bg: #6f488e;
+  --bs-btn-hover-bg: #583c93;
+  --bs-btn-active-bg: #583c93;
+
+  --bs-btn-border-color: #6f488e;
+  --bs-btn-disabled-border-color: #6f488e;
+  --bs-btn-hover-border-color: #9d72fc;
+  --bs-btn-active-border-color: #9d72fc;
+
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
 
 body {
   font-family: "Lato", Courier, monospace;
@@ -19,6 +38,10 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
+}
+
+.btn {
+  --bs-btn-border-radius: 0rem;
 }
 
 .bg-light {
@@ -32,14 +55,49 @@ body {
 .hero {
   width: 100vw;
   height: 100vh;
-  padding-top: 100px;
+  padding-top: 20vh;
   padding-left: 100px;
   background: url(../images/hero.png) no-repeat top right;
-  background-size: cover;
+  background-size: auto 100% !important;
 }
 
 .hero div {
-  width: 50vw;
-  background-color: #ac86ff8f;
-  padding: 10px;
+  width: 40rem;
+  background-color: #ad86ff30;
+  padding: 3rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: #6f488e;
+  font-weight: 700;
+}
+
+.sectionTitle {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #6f488e;
+  font-weight: 700;
+  gap: 5px;
+}
+
+.sectionTitle:before,
+.sectionTitle:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #6f488e;
+  margin: auto;
+}
+
+.sectionContent {
+  width: 80vw;
+  margin: auto;
+}
+
+.copyright {
+  background: #6f488e;
+  padding: 25px;
+  color: #fff;
 }
