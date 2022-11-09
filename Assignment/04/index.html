@@ -21,7 +21,7 @@
       <!-- top Menu -->
       <div class="collapse navbar-collapse justify-content-end" id="topNavbarToggler">
         <a class="nav-link active px-5 me-3" href="#">Home</a>
-        <button class="btn btn-primary px-5" data-bs-toggle="modal" data-bs-target="#login">Login</button>
+        <button class="btn btn-primary text-uppercase px-5" data-bs-toggle="modal" data-bs-target="#login">Login</button>
       </div>
     </nav>
 
@@ -30,17 +30,18 @@
       <section class="hero">
         <div class="col-md-6 col-sm-12">
           <h1 class="fs-2">Learn American Sign Language</h1>
-          <p class="fs-4 lh-lg">Learn ASL for free from the comfort of your home at your convenience. No tutoring is needed. Our application will help you learn and evaluate your progress.</p>
-          <button class="btn btn-primary btn-lg me-3 mb-3">Get Started</button>
-          <button class="btn btn-primary btn-lg me-3 mb-3">Continue as a Guest</button>
+          <p class="fs-5 lh-lg text-justify">Learn ASL for free from the comfort of your home at your convenience. No tutoring is needed. Our application will help you learn and evaluate your progress.</p>
+          <button class="btn btn-primary btn-md me-3 mb-3">Get Started</button>
+          <button class="btn btn-primary btn-md me-3 mb-3">Continue as a Guest</button>
         </div>
       </section>
+
       <!-- Section 1 Interactive ASL Lessons -->
       <section>
         <h2 class="sectionTitle">Interactive ASL Lessons</h2>
-        <div class="row align-items-center sectionContent">
-          <img src="src/images/s1.png" alt="Interactive ASL Lessons" class="col-md-6" />
+        <div class="row align-items-center pt-5 p-md-5 sectionContent">
           <p class="col-md-6 fs-4">In addition to predefined lessons, we offer interactive lessons. With the help of your webcam, you will get the chance to practice what you learned.</p>
+          <img src="src/images/s1.png" alt="Interactive ASL Lessons" class="col-md-6" />
         </div>
       </section>
 
@@ -48,18 +49,18 @@
 
       <section>
         <h2 class="sectionTitle">Have Fun Learning</h2>
-        <div class="row flex-row-reverse align-items-center sectionContent">
-          <img src="src/images/s2.png" alt="Have Fun Learning" class="col-md-6" />
+        <div class="row flex-row-reverse align-items-center pt-5 p-md-5 sectionContent">
           <p class="col-md-6 fs-4">We offer fun games designed for the hearing impaired to reinforce learning. These games will include bingo and flashcards.</p>
+          <img src="src/images/s2.png" alt="Have Fun Learning" class="col-md-6" />
         </div>
       </section>
 
       <!-- Section 3 Resources -->
       <section>
         <h2 class="sectionTitle">Resources</h2>
-        <div class="row align-items-center sectionContent">
-          <img src="src/images/s3.png" alt="Resources" class="col-md-6" />
+        <div class="row align-items-center pt-5 p-md-5 sectionContent">
           <p class="col-md-6 fs-4">Our mission is to facilitate the ASL learning process for those who are hearing impaired. In keeping with our mission, we will provide helpful links with tips and other resources to help those who need guidance. In addition, our users will be able to communicate with other students and share knowledge and resources.</p>
+          <img src="src/images/s3.png" alt="Resources" class="col-md-6" />
         </div>
       </section>
     </main>
@@ -84,54 +85,49 @@
             <h1 class="modal-title fs-5" id="loginModal">Login</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
-            <input type="email">
-            <input type="password">
-            <button type="button" class="btn btn-primary">login</button>
+          <div class="modal-body d-flex flex-column justify-content-center">
+            <input type="email" class="form-control mb-3" id="email" placeholder="Email" />
+            <input type="password" class="form-control mb-3" id="password" placeholder="password" />
+            <div class="text-center"><button type="button" class="btn btn-primary px-5">Login</button></div>
 
-            <h2 class="sectionTitle">or</h2>
-            <h4>Forgot your password?</h4>
+            <p class="sectionTitle">or</p>
+            <div><p>Forgot your password?</p></div>
 
-            <button type="button" class="btn btn-primary"" data-bs-dismiss="modal">Click here</button>
+            <div class="text-center"><button type="button" class="btn btn-primary px-5" data-bs-dismiss="modal">Click here</button></div>
 
-            <h2 class="sectionTitle">or</h2>
-            <h4>Don’t have an account?</h4>
-            <button class="btn btn-primary px-5" data-bs-toggle="modal" data-bs-target="#signup">Sign Up</button>
+            <p class="sectionTitle">or</p>
+            <div><p>Don’t have an account?</p></div>
+            <div class="text-center"><button class="btn btn-primary px-5" data-bs-toggle="modal" data-bs-target="#signup">Sign Up</button></div>
           </div>
           <div class="modal-footer"></div>
         </div>
       </div>
     </div>
-  
 
-       <!-- Modal Sign Up -->
-       <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="signupModal" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="signupModal">Create your account</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <input type="email">
-              <input type="text">
-              <input type="password">
-              By clicking Sign Up, you agree to our Terms of Service.
-              <button type="button" class="btn btn-primary">Sign Up</button>
-
-  
-              <h2 class="sectionTitle">or</h2>
-              <h4>Already have an account?</h4>
-  
-              <button type="button" class="btn btn-primary"" data-bs-dismiss="modal">Click here</button>
-  
-            </div>
-            <div class="modal-footer"></div>
+    <!-- Modal Sign Up -->
+    <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="signupModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="signupModal">Create your account</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
+          <div class="modal-body d-flex flex-column justify-content-center">
+            <input type="email" class="form-control mb-3" id="email" placeholder="Email" />
+            <input type="text" class="form-control mb-3" id="user" placeholder="User Name" />
+            <input type="password" class="form-control mb-3" id="password" placeholder="Password" />
+            <p>By clicking Sign Up, you agree to our <a href="">Terms of Service.</a></p>
+            <div class="text-center"><button type="button" class="btn btn-primary px-5">Sign Up</button></div>
+
+            <p class="sectionTitle">or</p>
+            <p>Already have an account?</p>
+
+            <div class="text-center"><button class="btn btn-primary px-5" data-bs-toggle="modal" data-bs-target="#login">Login</button></div>
+          </div>
+          <div class="modal-footer"></div>
         </div>
       </div>
-
-
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
