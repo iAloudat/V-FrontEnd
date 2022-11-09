@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font-awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="src/css/main.css" />
     <title>Assignment 4</title>
   </head>
@@ -116,6 +120,15 @@
             <input type="email" class="form-control mb-3" id="email" placeholder="Email" />
             <input type="text" class="form-control mb-3" id="user" placeholder="User Name" />
             <input type="password" class="form-control mb-3" id="password" placeholder="Password" />
+            <!-- Password Validation HTML Code -->
+            <div class="alert alert-warning password-alert" role="alert">
+              <ul>
+                <li class="requirements leng"><i class="fas fa-check text-success"></i><i class="fas fa-times text-danger"></i> Your password must have at least 10 chars.</li>
+                <li class="requirements big-letter"><i class="fas fa-check text-success"></i><i class="fas fa-times text-danger"></i> Your password must have at least 1 big letter.</li>
+                <li class="requirements num"><i class="fas fa-check text-successt"></i><i class="fas fa-times text-danger"></i> Your password must have at least 1 number.</li>
+                <li class="requirements special-char"><i class="fas fa-check text-success"></i><i class="fas fa-times text-danger"></i> Your password must have at least 1 special char.</li>
+              </ul>
+            </div>
             <p>By clicking Sign Up, you agree to our <a href="">Terms of Service.</a></p>
             <div class="text-center"><button type="button" class="btn btn-primary px-5">Sign Up</button></div>
 
@@ -128,9 +141,11 @@
         </div>
       </div>
     </div>
-
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-
+    <!--  Password Validation -->
     <script src="src/js/script.js"></script>
   </body>
 </html>
