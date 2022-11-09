@@ -4,40 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="src/css/main.css" />
     <title>Assignment 4</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a href="index.html"><img class="navbar-brand" src="src/images/Logo.png" alt="" /></a>
+    <nav class="navbar navbar-expand-sm bg-light px-4">
+      <!-- Logo -->
+      <a href="index.html"><img class="navbar-brand" src="src/images/Logo.png" alt="" /></a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbarToggler" aria-controls="topNavbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <!-- Hamburger Menu -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbarToggler" aria-controls="topNavbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse p-2" id="topNavbarToggler">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-primary" href="#">Login</a>
-            </li>
-          </ul>
-        </div>
+      <!-- top Menu -->
+      <div class="collapse navbar-collapse justify-content-end" id="topNavbarToggler">
+        <a class="nav-link active px-5 me-3" href="#">Home</a>
+        <button class="btn btn-primary px-5" data-bs-toggle="modal" data-bs-target="#login">Login</button>
       </div>
     </nav>
 
     <main>
       <!-- Section Hero -->
       <section class="hero">
-        <div>
+        <div class="col-md-6 col-sm-12">
           <h1 class="fs-2">Learn American Sign Language</h1>
           <p class="fs-4 lh-lg">Learn ASL for free from the comfort of your home at your convenience. No tutoring is needed. Our application will help you learn and evaluate your progress.</p>
-          <button class="btn btn-primary btn-lg">Get Started</button>
-          <button class="btn btn-primary btn-lg">Continue as a Guest</button>
+          <button class="btn btn-primary btn-lg me-3 mb-3">Get Started</button>
+          <button class="btn btn-primary btn-lg me-3 mb-3">Continue as a Guest</button>
         </div>
       </section>
       <!-- Section 1 Interactive ASL Lessons -->
@@ -53,7 +48,7 @@
 
       <section>
         <h2 class="sectionTitle">Have Fun Learning</h2>
-        <div class="row align-items-center sectionContent">
+        <div class="row flex-row-reverse align-items-center sectionContent">
           <img src="src/images/s2.png" alt="Have Fun Learning" class="col-md-6" />
           <p class="col-md-6 fs-4">We offer fun games designed for the hearing impaired to reinforce learning. These games will include bingo and flashcards.</p>
         </div>
@@ -63,25 +58,85 @@
       <section>
         <h2 class="sectionTitle">Resources</h2>
         <div class="row align-items-center sectionContent">
-          <img src="src/images/s3.png" alt="Resources"  class="col-md-6" />
+          <img src="src/images/s3.png" alt="Resources" class="col-md-6" />
           <p class="col-md-6 fs-4">Our mission is to facilitate the ASL learning process for those who are hearing impaired. In keeping with our mission, we will provide helpful links with tips and other resources to help those who need guidance. In addition, our users will be able to communicate with other students and share knowledge and resources.</p>
         </div>
       </section>
     </main>
 
-    <footer>
-      <div class="row align-items-center sectionContent">
-        <a href="">About us</a>
-        <a href="">Careers</a>
-        <a href="">Terms</a>
-        <a href="">Contact us</a>
-        <a href="">Help and Support</a>
-        <a href="">Privacy policy</a>
+    <footer class="footer">
+      <div class="row sectionContent footerLinks">
+        <a href="#" class="col-md-4 fs-4 p-4">About us</a>
+        <a href="#" class="col-md-4 fs-4 p-4">Careers</a>
+        <a href="#" class="col-md-4 fs-4 p-4">Terms</a>
+        <a href="#" class="col-md-4 fs-4 p-4">Contact us</a>
+        <a href="#" class="col-md-4 fs-4 p-4">Help and Support</a>
+        <a href="#" class="col-md-4 fs-4 p-4">Privacy policy</a>
       </div>
       <div class="copyright fs-4">©2022, In Plain Sight. All rights reserved</div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Modal Login -->
+    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="loginModal">Login</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <input type="email">
+            <input type="password">
+            <button type="button" class="btn btn-primary">login</button>
+
+            <h2 class="sectionTitle">or</h2>
+            <h4>Forgot your password?</h4>
+
+            <button type="button" class="btn btn-primary"" data-bs-dismiss="modal">Click here</button>
+
+            <h2 class="sectionTitle">or</h2>
+            <h4>Don’t have an account?</h4>
+            <button class="btn btn-primary px-5" data-bs-toggle="modal" data-bs-target="#signup">Sign Up</button>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn btn-primary px-5" data-bs-toggle="modal" data-bs-target="#login">Login</button>
+
+  
+
+       <!-- Modal Sign Up -->
+       <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="signupModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="signupModal">Create your account</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <input type="email">
+              <input type="text">
+              <input type="password">
+              By clicking Sign Up, you agree to our Terms of Service.
+              <button type="button" class="btn btn-primary">Sign Up</button>
+
+  
+              <h2 class="sectionTitle">or</h2>
+              <h4>Already have an account?</h4>
+  
+              <button type="button" class="btn btn-primary"" data-bs-dismiss="modal">Click here</button>
+  
+            </div>
+            <div class="modal-footer"></div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="src/js/script.js"></script>
   </body>
