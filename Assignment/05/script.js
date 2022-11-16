@@ -9,7 +9,7 @@ form.addEventListener("submit", (e) => {
   let score = 0;
   const userAns = [form.q1, form.q2, form.q3, form.q4, form.q5];
 
-  //check ans
+  //check Answer
   userAns.forEach((ans, i) => {
     if (ans.value === correctAns[i]) {
       score += 1;
