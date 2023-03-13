@@ -1,41 +1,4 @@
-# Vanier-FrontEnd.
-
-## Assignment 01 
-
-- ✅ [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/tree/main/Assignment/01)
-  
-- 🌍 [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/01/index.html)
-
-## Assignment 02 
-
-- ✅ [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/02)
-  
-- 🌍 [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/02/index.html)
-
-
-## Assignment 03
-
-- ✅ [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/03)
-  
-- 🌍 [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Assignment/03/index.html)
-
-## Example Score Keeper
-
-- ✅ [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Example/ScoreKeeper)
-  
-- 🌍 [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Example/ScoreKeeper/index.html)
-
-
-## Quiz 01 
-- ✅ [Check The Code](https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Quiz/01)
-  
-- 🌍 [View a Demo](https://htmlpreview.github.io/?https://github.com/iAloudat/Vanier-FrontEnd/blob/main/Quiz/01/index.html)
-
-![](Assignment/02/images/ScreenShot.png)
-
-![](Quiz/01/images/ScreenShot.png)
-
-# CSS Tutorial 
+# FrontEnd Examples
 
 ## Chapter 05
 
