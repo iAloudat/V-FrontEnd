@@ -1,0 +1,14 @@
+/* Change the color of the first button to red when the user clicks */
+.b1:active {
+  background: red;
+}
+
+/* Change the color of the second button to green when the user hovers over it */
+.b2:hover {
+  background: green;
+}
+
+/* Change the color of the  button to blue when the user clicks on the button and it stays focused */
+.b3:focus {
+  background: blue;
+}

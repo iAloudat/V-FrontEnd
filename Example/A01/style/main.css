@@ -1,0 +1,146 @@
+/*  Add google font */
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+/* 
+bg: #3f3f3f
+nav & button bg: #993300 or Brown	#A52A2A
+cart bg: #4d1601
+Text bg: #383838
+*/
+
+/*  Effect all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*  implement google font to body */
+body {
+  font-family: "Lato", Courier, monospace;
+  background-color: #3f3f3f;
+}
+
+/*  navigation container using Flex */
+.nav_container {
+  background-color: #A52A2A ;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*  Effect First Flex Box  */
+.nav_container :first-child {
+  font-size: 35px;
+  font-weight: 900;
+}
+
+/*  Effect Last Flex Box  */
+.nav_container :last-child {
+  background-color: #00000080;
+  font-size: 14px;
+  padding: 15px 30px;
+  border-radius: 25px;
+}
+
+/*  Effect Span (Number of Card) */
+.nav_container div > span {
+  background-color: #A52A2A !important; 
+  padding: 5px 20px !important;
+  margin-left: 5px;
+  border-radius: 15px !important;
+}
+
+.hero_image {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  overflow:hidden;
+  /* background: linear-gradient(350deg, rgba(63,63,63,1) 30%, rgba(63,63,63,0) 30%),url("../images/meals.jpg") no-repeat; */
+}
+
+.hero_image::before {
+  content: "";
+  position: absolute;
+  width: 125vw;
+  height: 70vh;
+  top: -20vh;
+  left:-20vw;
+  z-index: -1;
+  background-image: url("../images/meals.jpg"),url("./images/meals.jpg");
+  background-size: cover;
+  transform: rotate(-4.5deg);
+}
+
+.main_paragraph {
+  width: 75vw;
+  margin: 0 auto;
+  padding: 8vh 20px;
+  margin-top: -35vh;
+  margin-bottom: 40px;
+  background: #383838;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 2px 10px 5px #242424;
+  z-index: 5;
+}
+.main_paragraph p{
+  padding: 10px;
+}
+
+/*  Order container using Flex */
+.order_container {
+  position: relative;
+  width: 85vw;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 25px;
+  background-color: #fff ;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+/*  Item container using Flex */
+.item_container {
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+/*  Effect First Flex Box  */
+.item_container :first-child {
+  text-align: left !important;
+}
+
+.item_container :first-child p{
+  color: #A52A2A;
+  font-weight: 700;
+  text-align: left !important;
+}
+
+
+/*  Effect Last Flex Box  */
+.item_container :last-child {
+  text-align: right;
+}
+
+.item_container :last-child input[type=number]{
+  width: 45px;
+  padding: 3px;
+  border-radius: 4px !important;
+  border: 1px solid rgb(222, 222, 222) ;
+}
+
+.item_container :last-child input[type=button]{
+  background-color: #A52A2A !important; 
+  color: #fff;
+  padding: 8px 30px !important;
+  margin-top: 5px;
+  border: 0px;
+  border-radius: 15px !important;
+
+}

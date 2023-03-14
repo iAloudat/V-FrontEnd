@@ -1,0 +1,78 @@
+/* HEX colors
+
+***background color***
+#2c3e50
+pink
+#3498db
+
+***circle colors***
+#d35400
+#f1c40f */
+
+body {
+  margin: 0 0 0 0;
+  background-color: #2c3e50;
+  overflow: hidden;
+  animation-name: sky;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.grass {
+  background: #2ecc71;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.sun {
+  background: #f1c40f;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  animation-name: sunMove;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* sky Animation */
+@keyframes sky {
+  0% {
+    background-color: #2c3e50;
+  }
+  30% {
+    background-color: pink;
+  }
+  70% {
+    background-color: #3498db;
+  }
+  100% {
+    background-color: #2c3e50;
+  }
+}
+
+/* Sun Animation */
+@keyframes sunMove {
+  0% {
+    background-color: #d35400;
+    transform: translate(-200px, 200px);
+  }
+  20% {
+    background-color: #f1c40f;
+    transform: translate(25vw, -25px);
+  }
+
+  50% {
+    background-color: #f1c40f;
+    transform: translate(50vw, -75px);
+  }
+  80% {
+    transform: translate(75vw, 0px);
+  }
+
+  100% {
+    background-color: #d35400;
+    transform: translate(100vw, 300px);
+  }
+}
